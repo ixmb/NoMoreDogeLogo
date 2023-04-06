@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "NoMoreDogeLogoTweeter",
+    "version": "1.0",
+    "description": "It changes Twitter's logo and makes it original..",
+    "icons": {
+      "48": "icon.png"
+    },
+    "action": {
+      "default_icon": {
+        "48": "icon.png"
+      },
+      "default_title": "No More Doge Logo for Tweeter"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://twitter.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "host_permissions": [
+      "https://twitter.com/*"
+    ]
+  }
+  
