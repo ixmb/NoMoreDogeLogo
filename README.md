@@ -1,4 +1,4 @@
-**Title: NoMoreDoge Logo Changer for Tweeter**
+**Title: NoMoreDoge Logo Changer for Twitter**
 
 **Description:**
 
